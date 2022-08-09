@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  background: var(--white);
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  max-width: 1200px;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: var(--grey-ed);
+  }
+}

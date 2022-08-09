@@ -1,0 +1,13 @@
+::root {
+  --mr-1: 1rem;
+  --mm-125: 1.25rem;
+  --pm-1: 1rem;
+  --mr-225: 2.25rem;
+  --ms-125: 1.25rem;
+  --pl-1: 1rem;
+  --pr-1: 1rem;
+}
+
+.mr-1 {
+  font: 500 1rem/ 1.5 "montserrat", sans-serif;
+}

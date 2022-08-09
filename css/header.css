@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.desktop-menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.desktop-menu li a {
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.desktop-menu li a:hover {
+  background: var(--grey-ed);
+}
+
+@media (max-width: 600px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .logo img{
+    width: 70%;
+    height: auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
