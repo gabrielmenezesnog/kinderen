@@ -8,8 +8,16 @@
   --pr-1: 1rem;
 }
 
-.mr-1 {
+.desktop-navbar a {
   font: 500 1rem/1.5 'montserrat', sans-serif;
+}
+
+.mm-1 {
+  font: 500 1rem/1.5 'montserrat', sans-serif;
+}
+
+.mr-1 {
+  font: 400 1rem/1.5 'montserrat', sans-serif;
 }
 
 .mr-225 {

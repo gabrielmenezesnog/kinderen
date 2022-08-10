@@ -1,11 +1,12 @@
 body {
   margin: 0px;
-  background: var(--white);
+  padding: 0px;
 }
 
 ul,
 li {
   list-style: none;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -32,13 +33,10 @@ a {
   max-width: 1200px;
 }
 
-.strong{
+.strong {
   font-weight: 500;
   color: var(--black-111);
 }
 
 @media (max-width: 600px) {
-  body {
-    background: var(--grey-ed);
-  }
 }

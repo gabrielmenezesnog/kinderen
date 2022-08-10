@@ -1,17 +1,23 @@
 :root {
-  --green: #25d366;
-  --yellow-solid: #ffbb00;
-  --yellow-pure: #ffe135;
-  --red-solid: #f45858;
-  --black-000: #000;
-  --black-111: #111111;
-  --grey-40: #404040;
-  --grey-c: #cccccc;
-  --white: #ffffff;
-  --grey-b2: #b2b2b2;
+  --yellow: #ffe135;
   --grey-71: #717171;
-  --blue: #1e91e4;
+  --white: #ffffff;
+  --black: #000000;
+  --grey-40: #404040;
+  --green: #25d366;
+  --black-op50: rgba(0, 0, 0, 0.5);
+  --grey-b2: #b2b2b2;
   --grey-ed: #ededed;
+  --grey-de: #dedede;
+  --grey-59: #595959;
+}
+
+.desktop-navbar a {
+  color: var(--grey-71);
+}
+
+.grey-71 {
+  color: var(--grey-71);
 }
 
 .grey-40 {
