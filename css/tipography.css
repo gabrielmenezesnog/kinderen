@@ -9,5 +9,17 @@
 }
 
 .mr-1 {
-  font: 500 1rem/ 1.5 "montserrat", sans-serif;
+  font: 500 1rem/1.5 'montserrat', sans-serif;
+}
+
+.mr-225 {
+  font: 400 2.25rem/1.5 'montserrat', sans-serif;
+}
+
+.ms-1 {
+  font: 600 1rem/1.5 'montserrat', sans-serif;
+}
+
+.pl-1 {
+  font: 300 1rem/1.5 'poppins', sans-serif;
 }

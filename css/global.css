@@ -9,6 +9,15 @@ li {
   padding: 0px;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
   text-decoration: none;
   color: initial;
@@ -21,6 +30,11 @@ a {
   box-sizing: border-box;
   padding: 0px 20px;
   max-width: 1200px;
+}
+
+.strong{
+  font-weight: 500;
+  color: var(--black-111);
 }
 
 @media (max-width: 600px) {

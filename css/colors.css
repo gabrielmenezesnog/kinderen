@@ -13,3 +13,7 @@
   --blue: #1e91e4;
   --grey-ed: #ededed;
 }
+
+.grey-40 {
+  color: var(--grey-40);
+}

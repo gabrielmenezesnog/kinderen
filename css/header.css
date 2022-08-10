@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
+  margin-bottom: 60px;
 }
 
 .desktop-menu ul {
@@ -13,10 +14,11 @@
 .desktop-menu li a {
   padding: 10px 20px;
   border-radius: 4px;
+  transition: 0.2s;
 }
 
-.desktop-menu li a:hover {
-  background: var(--grey-ed);
+.desktop-menu li:hover a{
+  background: var(--yellow-pure);
 }
 
 @media (max-width: 600px) {
@@ -33,5 +35,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    margin-bottom: 20px;
   }
 }

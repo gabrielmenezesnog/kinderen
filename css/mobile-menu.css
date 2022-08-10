@@ -8,7 +8,7 @@
   }
 
   .mobile-menu-position {
-    position: absolute;
+    position: fixed;
     left: 50%;
     bottom: 10px;
     width: 90%;
