@@ -2,6 +2,10 @@
   margin-bottom: 160px;
 }
 
+.products-gallery > div:nth-child(2) {
+  margin-bottom: 60px;
+}
+
 .gallery-title {
   margin-bottom: 20px;
 }
@@ -34,7 +38,7 @@
   position: absolute;
   text-align: center;
   bottom: 4px;
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 20px 20px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--black-op50);
