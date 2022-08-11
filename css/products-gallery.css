@@ -47,6 +47,11 @@
 }
 
 @media (max-width: 1000px) {
+
+  .products-gallery {
+    margin-bottom: 60px;
+  }
+
   .gallery {
     gap: 16px;
     overflow: scroll;
