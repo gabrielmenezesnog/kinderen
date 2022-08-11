@@ -13,6 +13,7 @@
     bottom: 10px;
     width: 90%;
     transform: translateX(-50%);
+    z-index: 1000;
   }
   .mobile-menu {
     position: relative;

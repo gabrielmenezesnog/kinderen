@@ -7,13 +7,16 @@
   --grey-40: #404040;
   --grey-59: #595959;
   --grey-71: #717171;
-  --grey-b2: #b2b2b2;
   --grey-ed: #ededed;
   --grey-de: #dedede;
 }
 
 .desktop-navbar a {
   color: var(--grey-71);
+}
+
+.white {
+  color: var(--white);
 }
 
 .grey-71 {
@@ -24,10 +27,10 @@
   color: var(--grey-40);
 }
 
-.grey-59{
+.grey-59 {
   color: var(--grey-59);
 }
 
-.grey-9c{
+.grey-9c {
   color: var(--grey-9c);
 }

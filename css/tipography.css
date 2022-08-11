@@ -24,8 +24,16 @@
   font: 400 1.25rem/1.875 'montserrat', sans-serif;
 }
 
+.mr-15 {
+  font: 400 1.5rem/1.875 'montserrat', sans-serif;
+}
+
 .mr-225 {
   font: 400 2.25rem/1.5 'montserrat', sans-serif;
+}
+
+.mm-1 {
+  font: 500 1rem/1.5 'montserrat', sans-serif;
 }
 
 .ms-1 {
