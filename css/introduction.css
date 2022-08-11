@@ -63,7 +63,7 @@
   height: 160px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .introduction {
     display: grid;
     grid-template-columns: 1fr;
@@ -72,8 +72,22 @@
     margin-top: 40px;
   }
 
+  .introduction p {
+    max-width: 50ch;
+  }
+
+  .mosaic {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
   .orcamento {
     margin: 40px 0px 0px 30px;
+  }
+
+  .presentation::before {
+    width: 20px;
   }
 
   .mosaic {
