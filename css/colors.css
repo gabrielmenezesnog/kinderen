@@ -1,15 +1,15 @@
 :root {
   --yellow: #ffe135;
-  --grey-71: #717171;
   --white: #ffffff;
   --black: #000000;
-  --grey-40: #404040;
   --green: #25d366;
   --black-op50: rgba(0, 0, 0, 0.5);
+  --grey-40: #404040;
+  --grey-59: #595959;
+  --grey-71: #717171;
   --grey-b2: #b2b2b2;
   --grey-ed: #ededed;
   --grey-de: #dedede;
-  --grey-59: #595959;
 }
 
 .desktop-navbar a {
@@ -22,4 +22,12 @@
 
 .grey-40 {
   color: var(--grey-40);
+}
+
+.grey-59{
+  color: var(--grey-59);
+}
+
+.grey-9c{
+  color: var(--grey-9c);
 }
