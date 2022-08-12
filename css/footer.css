@@ -9,6 +9,10 @@
   gap: 40px;
 }
 
+.footer .strong {
+    font-weight: 600;
+}
+
 @media (max-width: 600px) {
   .footer-bg {
     padding: 40px 0;
