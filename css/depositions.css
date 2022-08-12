@@ -1,0 +1,56 @@
+.depositions {
+  margin-bottom: 120px;
+}
+
+.depositions-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.deposition > div {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.deposition p {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.deposition p:last-child::before {
+  content: '';
+  width: 12px;
+  height: 2px;
+  background-color: var(--grey-71);
+}
+
+.first-line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
+.first-line > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (max-width: 1000px) {
+  .depositions-list {
+    overflow-x: scroll;
+  }
+
+  .deposition > div {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

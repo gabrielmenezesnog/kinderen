@@ -56,7 +56,7 @@
   .contact {
     gap: 20px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 
   .contact h2 {
@@ -71,5 +71,6 @@
 @media (max-width: 800px) {
   .contact > div:nth-child(2) {
     grid-template-columns: 1fr;
+    padding-bottom: 60px;
   }
 }
