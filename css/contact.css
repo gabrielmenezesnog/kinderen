@@ -46,10 +46,28 @@
   padding-left: 12px;
 }
 
+.contact-dados a{
+  padding: 16px 0;
+  width: fit-content;
+  height: fit-content;
+}
+
 .contact-tempo {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+[data-semana] {
+  padding: 10px 12px;
+  background: var(--red);
+  width: fit-content;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+[data-semana].aberto {
+  background: var(--green);
 }
 
 @media (max-width: 800px) {

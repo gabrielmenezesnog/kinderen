@@ -8,3 +8,6 @@
 @import 'contact.css';
 @import 'depositions.css';
 @import 'footer.css';
+
+@import 'scrollAnimation.css';
+@import 'tooltip.css';

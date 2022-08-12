@@ -1,0 +1,27 @@
+.tooltip {
+  position: absolute;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.8rem;
+  color: white;
+  font: 400 0.8rem/1.5 'poppins', sans-serif;
+  max-width: 150px;
+  border-radius: 4px;
+  top: 0px;
+  left: 0px;
+}
+
+@media (max-width: 600px) {
+  .tooltip::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: -6px;
+    right: -6px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--red) url('../resources/svg/close.svg') no-repeat center center;
+  }
+}
