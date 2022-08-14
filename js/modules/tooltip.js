@@ -1,7 +1,6 @@
 export default class ToolTip {
   constructor(tooltips) {
     this.tooltip = document.querySelectorAll(tooltips);
-
     // redireciona o this para que possa ser usado
     // referenciando sempre o objeto de SmoothScroll
     // e não o this de cada método. This = Tooltip
@@ -24,7 +23,9 @@ export default class ToolTip {
   // Quando o mouse sai do perímetro do alvo, remove a tooltip
   // e os eventos de mousemove e mouseleave
   onMouseLeave({ currentTarget }) {
-    this.tooltipBox.remove();
+    if (window.screen.width > 600) {
+      this.tooltipBox.remove();
+    }
     currentTarget.removeEventListener('mouseleave', this.onMouseLeave);
     currentTarget.removeEventListener('mousemove', this.onMouseMove);
   }
@@ -37,6 +38,20 @@ export default class ToolTip {
     tooltipBox.innerText = text;
     document.body.appendChild(tooltipBox);
     this.tooltipBox = tooltipBox;
+  }
+
+  closeTooltip(event) {
+    const { target } = event;
+    if (target.classList.contains('tooltip')) {
+      target.remove();
+    }
+    return this;
+  }
+
+  clickWatcher() {
+    if (window.screen.width <= 600) {
+      window.addEventListener('click', this.closeTooltip);
+    }
   }
 
   // Cria a tooltip e adiciona os eventos de
@@ -59,6 +74,7 @@ export default class ToolTip {
     if (this.tooltip.length) {
       this.addTooltipsEvent();
     }
+    this.clickWatcher();
     return this;
   }
 }
